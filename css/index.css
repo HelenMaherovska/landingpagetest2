@@ -1,0 +1,224 @@
+body
+{
+    height: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.wrapper
+{
+    min-height: 100%;
+    
+}
+
+#logo
+{
+     margin: 15px 120px ;
+    padding: 0 40px;
+   
+}
+#company_name
+{
+    padding-top: 5px;
+    color: #32CD32;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: -25px;
+    
+}
+.main
+{
+    background: url(../img/seepic.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    
+}
+
+
+.bg_color
+{
+    background-color: rgba(255,0,128,0.6);
+}
+
+.text_wrap
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-bottom: 80px;
+    color: white;
+    width: 40%;
+    
+}
+h1
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+i
+{
+    font-size: 20px;
+    font-weight: 100;
+}
+.wrap_as
+{
+    height: 60vh;
+    background-color: rgba(220, 220, 220,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+
+p.description
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+button
+{
+    width: 220px;
+    height: 38px;
+    border-radius: 5px;
+    border: 2px solid rgba(54, 54, 54,0.95);
+    color: white;
+    background-color: rgba(54, 54, 54,0.95);
+    margin-bottom: 45px;
+    
+   
+}
+
+div#green_btn_wrap
+{
+    padding: 0 50px;
+    background-color: rgba(79, 79, 79,0.4); 
+}
+button#green_button
+{
+    margin: 30px 0;
+    background-color: #32CD32;
+     border: 2px solid #32CD32;
+    
+    
+}
+#btn_wrap
+{
+    padding: 0 50px;
+}
+.main_text
+{
+    padding: 80px 300px;
+    text-align: center;
+    border-bottom: 2px solid rgba(169, 169, 169,0.3);
+}
+.phone,.email
+{
+    color: #32CD32;
+    font-weight: 600;
+    font-size: 15px;
+}
+.email
+{
+    text-align: center;
+    
+}
+
+.information
+{
+    margin: 100px 170px;
+}
+.information::after
+{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.info_caption
+{
+    text-transform: uppercase;
+    color: #32CD32;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    
+}
+.block
+{
+    padding: 10px 30px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.block > img
+{
+    background-color: #32CD32;
+    border-radius: 20px;
+}
+
+footer
+{
+    background: #333333;
+    color: white;
+    display: flex;
+}
+.foo_caption
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #32CD32;
+    
+}
+
+.questions_foo
+{
+    margin: 0 150px;
+    padding: 40px 0;
+    width: 40%;
+    
+}
+.questions_foo::after
+{
+    clear: both;
+    content: '';
+    display: block;
+    display: block;
+}
+.wrap_contacts
+{
+     padding: 40px 0;
+}
+address
+{
+    line-height: 25px;
+    padding-bottom:20px;
+    border-bottom: 2px solid rgba(169, 169, 169,0.2);
+    
+}
+.fa,.foo_copyright
+{
+    color: #32CD32;
+}
+.wrap_foo_desc
+{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
